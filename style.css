@@ -136,6 +136,7 @@ margin-left: 100px;
     background-color: rgba(248, 245, 245, 0.1);
     /* margin:auto */
     text-align: center;
+    margin-left: 50px;
 
 }
 .section-description2{
@@ -173,11 +174,9 @@ padding-right: 20px; */
 }
 .section-4{
     display: flex;
-    /* margin: auto; */
+    justify-content: space-around;
     margin-left: 100px;
     margin-right: 100px;
-    margin-bottom: 100px;
-
 }
 .section4-description{
     color: rgba(7, 2, 17, 0.60);
@@ -186,7 +185,7 @@ font-family: 'Merriweather', serif;
 font-family: 'Open Sans', sans-serif;
 font-size: 20px;
 width: 393px;
-font-weight: 400;
+font-weight: 300;
 
 }
 .section4-main-title{
@@ -213,9 +212,6 @@ border: 10px solid #F00;
 width: 364px;
 height: 364px;
 border-radius: 364px;
-background: url(Ellipse\ 1.png), lightgray -91.279px 0px / 150.038% 100% no-repeat;
-background-repeat: no-repeat;
-/* position: static; */
 
 }
 .section-little-img{
@@ -257,19 +253,60 @@ font-weight: 500;
 line-height: normal;
 padding-top: 100px;
 }
+.section-title2{
+    color: #F00;
+  text-align: center;
+  font-family: Merriweather;
+  font-size: 72px;
+  font-style: normal;
+  font-weight: 900;
+  }
+
 .title-info-decsription{
     color: rgba(7, 2, 17, 0.60);
-text-align: center;
+padding-left: 266px;
+padding-right: 266px;
 font-family: Inter;
 font-size: 20px;
 font-weight: 500;
 line-height: 32px;
+/* width: 1064px; */
 }
 .column-img{
     display: flex;
+    justify-content: space-between;
     margin-top: 100px;
+    /* position: relative; */
+    
 }
 .column-img1{
     margin-left: 100px;
+
     
 }
+.column-img1{
+        position: relative;
+      }
+      
+      .bottom-img,
+      .top-img{
+        position: absolute;
+        top: 0;
+        left: 0;
+        /* Add width and height if needed */
+      }
+      
+      .top-img {
+        /* Adjust the z-index to place it on top */
+        z-index: 1;
+      }
+      .bottom-img{
+        padding-top: 400px;
+       }
+       .column-img2{
+        margin-right: 83px;
+       }p
+     .big-title{
+        
+     }
+   
