@@ -374,6 +374,8 @@ width: 1320px;
 height: 616px;
 margin-left: 100px;
     }
+    .subscribe-info{
+  }
     .subscribe-title{
         text-align:center ;
     }
@@ -400,21 +402,37 @@ margin-left: 100px;
     .subscribe-newsletter{
         
     }
-    .gmail{
-       /* width: 500px;
-       height: 70px;
-       margin-left: 336px; */
-    }
-    .subscribe{
-        border-radius: 0px 50px 50px 0px;
-        background: #F00;
-        color: #FFF;
-        text-align: center;
-        /* font-family: Inter; */
-        font-size: 20px;
-        font-weight: 600;
-        width: 180px;
-        height: 72px;
-        margin-top: 10px;
-    }
-   
+#subscribe{
+    width: 200px;
+  height: 50px;
+  border-top-right-radius: 50px;
+  border-bottom-right-radius: 50px;
+
+  background: #f00;
+  margin-left: -100px;
+  border: none;
+    
+}
+input{
+    width: 608px;
+    height: 50px;
+    border: none;
+    margin-top: 50px;
+    margin-left: 250px;
+    padding-left: 20px;
+    color: rgba(7, 2, 17, 0.3);
+    font-family: Inter;
+    font-size: 11px;
+    font-weight: 400;
+    border-radius: 50px;
+    background: #fff;
+}
+::placeholder{
+    color: rgba(7, 2, 17, 0.30);
+text-align: center;
+font-family: Inter;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
