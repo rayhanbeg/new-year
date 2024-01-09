@@ -219,6 +219,7 @@ font-weight: 900;
     font-weight: 400;
     line-height: 32px; 
     width: 276px;
+    text-align: left;
 
 }
 .section4-1-description{
@@ -408,6 +409,7 @@ line-height: 32px;
      .product1{
         margin: 8px;
      }
+     
     /* subscribe-container */
     .subscribe-container{
         border-radius: 16px;
